@@ -1,0 +1,39 @@
+
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+	  
+	  #searchDiv{
+	padding: 0.7em;
+	font-size: 0.9em;
+	text-align:center;
+	margin-top:10em;
+}
+#search{
+	padding:5px;
+	margin-left: 0.5em;
+	width:20em;
+	height:3em;
+	border-color:blue;
+	border-style:thin;
+    border-radius: 5px;
+}
+#butt{
+	border-radius: 5px;
+    text-align:center;
+    padding:0.7em;
+    border-style:thin;
+   background-color:blue;
+   color:white;   
+   width:7em;
+}
+#map {
+        height: 50%;
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		
+      }
+

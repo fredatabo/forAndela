@@ -1,23 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
+<html>
+  <head>
+    <title>Geo Search App</title>
+    <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Geo Search Project</title>
-    <meta name="description" content="">
-  
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-     
-        </style>  
+    <link rel="stylesheet" href="style.css"></html>  <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+   <div id = "searchDiv">
+	   <input type = "text" id = "search" placeholder = "enter city name" name = "address" />
+	   <button  type = "button" id = "butt" data-action = "search">Search</button>
+	   
+	   </div>
+	   <div id = "temp"></div>
+	<div id = "we"></div>
+	<div id = "wind"></div>
+    <div id="map"></div>
 
-    </head>
-
-    <body>
-
-       
-
-    </body>
-
-</html>
+	
+    
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+    async defer></script>
+	 <script src="../js/map.js"></script>
+	
+  </body>
+  </html>
